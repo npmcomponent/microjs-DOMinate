@@ -29,7 +29,7 @@ function DOMinate(DOMfragment, namespace) {
   for (var i = 1; i < DOMfragment.length; i++) {
     if (typeof DOMfragment[i] == 'string') {
       DOMfragment[0].appendChild(document.createTextNode(DOMfragment[i]));
-    } else if (DOMfragment[i].pop) { //if (DOMfragment[i] is an Array)
+    } else if (typeof DOMfragment[i].pop == 'function') { //if (DOMfragment[i] is an Array)
       DOMfragment[0].appendChild(DOMinate(DOMfragment[i], namespace));
     } else {
       for (var property in DOMfragment[i]) {
