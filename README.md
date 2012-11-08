@@ -17,10 +17,10 @@ DOMinate(
     ['p','some example text'],
     ['ul', {id:'list', class:'bullets'},
       ['li', 'item1'],
-              ['li.active', 'item2'],
-              ['li',
-                  ['a', 'item3', {href: '#'}]
-              ]
+      ['li.active', 'item2'],
+      ['li',
+          ['a', 'item3', {href: '#'}]
+      ]
     ]
   ]
 );
@@ -44,12 +44,12 @@ compiles to
 
 ```javascript
 DOMinate(
-    [document.body,
-        ['svg', {height: 100, width: 100},
-            ['circle', {cx: 10, cy: 10, r: 5, style: 'fill:green'}],
-            ['circle', {cx: 20, cy: 20, r: 5, style: 'fill:red'}]
-        ]
-    ], 'http://www.w3.org/2000/svg'
+  [document.body,
+    ['svg', {height: 100, width: 100},
+      ['circle', {cx: 10, cy: 10, r: 5, style: 'fill:green'}],
+      ['circle', {cx: 20, cy: 20, r: 5, style: 'fill:red'}]
+    ]
+  ], 'http://www.w3.org/2000/svg'
 );
 ```
 compiles to:
