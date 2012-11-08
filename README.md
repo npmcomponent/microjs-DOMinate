@@ -1,3 +1,4 @@
+[![Build Status](https://secure.travis-ci.org/microjs/DOMinate.png?branch=master)](https://travis-ci.org/microjs/DOMinate)
 # DOMinate
 
 A **DOM building utility** and **Template engine** build upon **JsonML** with syntax sugar.
