@@ -14,10 +14,10 @@ function DOMinate(DOMfragment, namespace) {
 
     var element = document.createElementNS(namespace, sugarString.match(/^\w+/)[0]);
 
-    if(temp = sugarString.match(/#(\w+)/))
+    if(temp = sugarString.match(/#([\w\-]+)/))
       element.id = temp[1];
 
-    if(temp = sugarString.match(/\.\w+/g))
+    if(temp = sugarString.match(/\.[\w\-]+/g))
       element.setAttribute('class', temp.join(' ').replace(/\./g, ''));
 
     return element;
