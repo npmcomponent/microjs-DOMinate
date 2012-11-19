@@ -18,7 +18,7 @@ function DOMinate(DOMfragment, namespace) {
       element.id = temp[1];
 
     if(temp = sugarString.match(/\.\w+/g))
-      element.className += temp.join(' ').replace(/\./g, '');
+      element.setAttribute('class', temp.join(' ').replace(/\./g, ''));
 
     return element;
   }
