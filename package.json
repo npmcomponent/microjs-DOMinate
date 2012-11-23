@@ -1,6 +1,6 @@
 {
   "name": "DOMinate",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "description": "DOMinate the DOM with this simple, yet powerful DOM building utility and template engine.",
   "main": "index.js",
   "directories": {
