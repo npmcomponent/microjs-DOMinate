@@ -1,24 +1,8 @@
 {
-  "name": "DOMinate",
-  "version": "1.0.0",
+  "name": "microjs-dominate",
   "description": "DOMinate the DOM with this simple, yet powerful DOM building utility and template engine.",
-  "main": "index.js",
-  "directories": {
-    "example": "examples",
-    "test": "test"
-  },
-  "scripts": {
-    "test": "mocha -R spec --globals document"
-  },
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/microjs/DOMinate.git"
-  },
-  "author": "",
-  "license": "MIT",
-  "devDependencies": {
-    "mocha": "~1.7.0",
-    "expect.js": "~0.2.0"
-  },
-  "private": true
+  "version": "1.0.0",
+  "keywords": [],
+  "dependencies": {},
+  "license": "MIT"
 }
